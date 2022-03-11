@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside">https://developer.mozilla.org/en-US/docs/Web/CSS/shape-outside</a></h3>
+    <br><br><br>
+
+    <div id="output" class="output large" style="display:flow-root;box-shadow: 10px 10px 10px rgba(255,0,0,0.5);">
+        <section id="default-example" class="default-example">
+            <div class="example-container">
+                <img id="example-element" class="transition-all" src="https://interactive-examples.mdn.mozilla.net/media/examples/round-balloon.png" width="150" style="shape-outside: circle(50% at 50% 50%);float:left;">
+                We had agreed, my companion and I, that I should call for him at his house, after dinner, not later than eleven o’clock. This athletic young Frenchman belongs to a small set of Parisian sportsmen, who have taken up “ballooning” as a pastime. After having exhausted all the sensations that are to be found in ordinary sports, even those of “automobiling” at a breakneck speed, the members of the “Aéro Club” now seek in the air, where they indulge in all kinds of daring feats, the nerve-racking excitement that they have ceased to find on earth.
+            </div>
+        </section>
+    </div>
+
+    <style>
+        .circle_animator,
+        .circle_animator *{box-sizing:border-box;}
+        .circle{
+            shape-outside:circle(50%);
+            width:500px;
+            height:500px;
+            float:left;
+            animation:nudge 3s infinite;
+            border:1px solid aquamarine;
+            background-color:rgba(255,0,0,0.5)
+        }
+
+        @keyframes nudge {
+            0%, 100%{
+                shape-outside:circle(50%);
+            }
+            50%{
+                shape-outside:circle(25%);
+            }
+        }
+    </style>
+
+    <div class="circle_animator">
+        <div class="circle"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit libero esse odio excepturi fuga est ut itaque a quod suscipit, rerum asperiores. Consequuntur voluptates illo rerum recusandae pariatur asperiores, aspernatur, saepe ipsum error dolorem, quod inventore possimus modi deleniti tenetur et officiis. Nemo ab in totam ratione sequi error, ea dolorum repudiandae omnis, eaque facere impedit fugiat. Dolorum distinctio autem sequi enim quidem esse accusamus repudiandae voluptatum nobis, velit, molestiae. Eaque maiores, harum. Saepe esse repellendus sint. Labore provident optio quis commodi quod quaerat quo similique perspiciatis libero facere. Suscipit odit quas nemo, enim laudantium, provident repellendus natus nostrum facilis expedita adipisci qui, harum minus quidem officia cupiditate repellat ut praesentium. Possimus corporis, error atque ex adipisci, illum suscipit pariatur saepe impedit aliquam amet eos reiciendis quidem hic, nisi. Sint nobis modi, nesciunt quasi placeat quia. Veniam inventore corrupti quisquam illum debitis vitae accusamus nobis alias cum iste error magnam, cupiditate earum! Incidunt at consequuntur, rem ipsa odio ipsum deleniti repudiandae blanditiis harum ut in, fugit officia rerum ad, corporis dolore! Commodi repellendus esse quibusdam enim qui totam ipsum, consequuntur officia vel dolores, quod corrupti eveniet maiores minus explicabo, sapiente ratione doloribus laboriosam impedit nesciunt a obcaecati quam veritatis! Placeat, velit possimus delectus, atque voluptate iste alias illo, dolor odit ipsa facere quibusdam? Non omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis impedit libero esse odio excepturi fuga est ut itaque a quod suscipit, rerum asperiores. Consequuntur voluptates illo rerum recusandae pariatur asperiores, aspernatur, saepe ipsum error dolorem, quod inventore possimus modi deleniti tenetur et officiis. Nemo ab in totam ratione sequi error, ea dolorum repudiandae omnis, eaque facere impedit fugiat. Dolorum distinctio autem sequi enim quidem esse accusamus repudiandae voluptatum nobis, velit, molestiae. Eaque maiores, harum. Saepe esse repellendus sint. Labore provident optio quis commodi quod quaerat quo similique perspiciatis libero facere. Suscipit odit quas nemo, enim laudantium, provident repellendus natus nostrum facilis expedita adipisci qui, harum minus quidem officia cupiditate repellat ut praesentium. Possimus corporis, error atque ex adipisci, illum suscipit pariatur saepe impedit aliquam amet eos reiciendis quidem hic, nisi. Sint nobis modi, nesciunt quasi placeat quia. Veniam inventore corrupti quisquam illum debitis vitae accusamus nobis alias cum iste error magnam, cupiditate earum! Incidunt at consequuntur, rem ipsa odio ipsum deleniti repudiandae blanditiis harum ut in, fugit officia rerum ad, corporis dolore! Commodi repellendus esse quibusdam enim qui totam ipsum, consequuntur officia vel dolores, quod corrupti eveniet maiores minus explicabo, sapiente ratione doloribus laboriosam impedit nesciunt a obcaecati quam veritatis! Placeat, velit possimus delectus, atque voluptate iste alias illo, dolor odit ipsa facere quibusdam? Non omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores temporeNon omnis aliquid eveniet fuga labore dolores, autem blanditiis, dolorem error ex enim fugiat quisquam aut reprehenderit delectus, nihil accusamus eaque at odit natus accusantium sunt asperiores unde? Tempora dolorem, ad quidem quis adipisci dolores tempore</p>
+    </div>
+</body>
+</html>
+
